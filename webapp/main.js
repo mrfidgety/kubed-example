@@ -19,7 +19,7 @@ const requestListener = function (req, res) {
         </style>
       </head>
       <body>
-          <p>Ahoy ${process.env.GREETING || 'unknown'}!</p>
+          <p>Hello ${process.env.GREETING || 'unknown'}!</p>
       </body>
     </html>
   `)
