@@ -20,6 +20,7 @@ const requestListener = function (req, res) {
       </head>
       <body>
           <p>Hello ${process.env.GREETING || 'unknown'}!</p>
+          <p>The color is ${process.env.COLOR || 'unknown'}</p>
       </body>
     </html>
   `)
