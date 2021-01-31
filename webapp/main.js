@@ -14,12 +14,13 @@ const requestListener = function (req, res) {
         <style>
           body {
             padding: 24px;
-            // color: ${process.env.COLOR || 'blue'};
+            color: ${process.env.COLOR || 'blue'};
           }
         </style>
       </head>
       <body>
-          <p>Ahoy ${process.env.GREETING || 'unknown'}!</p>
+          <p>Hello ${process.env.GREETING || 'unknown'}!</p>
+          <p>The color is ${process.env.COLOR || 'unknown'}</p>
       </body>
     </html>
   `)
